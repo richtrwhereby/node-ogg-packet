@@ -1,9 +1,8 @@
-
 /**
  * Module dependencies.
  */
 
-var Struct = require('ref-struct');
+var Struct = require("ref-struct-napi");
 
 /**
  * `ogg_packet` is used to encapsulate the data and metadata belonging
@@ -26,10 +25,10 @@ var Struct = require('ref-struct');
  */
 
 module.exports = Struct({
-  packet: 'uchar *',
-  bytes: 'long',
-  b_o_s: 'long',
-  e_o_s: 'long',
-  granulepos: 'int64',
-  packetno: 'int64'
+  packet: "uchar *",
+  bytes: "long",
+  b_o_s: "long",
+  e_o_s: "long",
+  granulepos: "int64",
+  packetno: "int64",
 });

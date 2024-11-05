@@ -17,6 +17,6 @@
   },
   "main": "./index.js",
   "dependencies": {
-    "ref-struct": "*"
+    "ref-struct-napi": "*"
   }
 }
